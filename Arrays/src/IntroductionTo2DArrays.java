@@ -25,13 +25,23 @@ System.out.println("");//changing the line
             System.out.print(y+" ");
         }
        }
+       System.out.println("");
 
        //creating the jagged arrauy
        int D[][];
-       D=new int[2][];
+       D=new int[3][];
        D[0]=new int[2];
        D[1]=new int[4];
+       D[2]=new int[5];
 
+       //print the jagged arrays
+       System.out.println("Printing the jagged arrays");
+       for(int i=0;i<D.length;i++){
+           for(int j=0;j<D[i].length;j++){
+            System.out.print(D[i][j]+" ");
+           }
+           System.out.println("");
+}
 
         
     }
