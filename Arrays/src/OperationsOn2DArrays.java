@@ -61,7 +61,7 @@ public class OperationsOn2DArrays {
         System.out.println("the value after the sorting of the string is ");
 
         for (int i = 0; i < str.length; i++)
-            System.out.print(str[i] + "   ");f
+            System.out.print(str[i] + "   ");
     }
 
 }
